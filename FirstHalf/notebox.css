@@ -1,0 +1,78 @@
+.notebox{
+    border:2px solid #666;
+    padding:.5em;
+    border-radius: 5%;
+    
+}
+.notebox.warning {
+    border: 4px solid orange;
+    font-weight:bold;
+
+}
+.notebox.danger {
+    border: 4px dashed red;
+    font-weight:bold;
+        
+    }
+    article :first-child{
+        color:yellow;
+    }
+    article:first-child{
+        color:darkblue;
+    }
+    h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:100%;
+    }
+    li[class]{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:200%;
+}
+li[class="a"] {
+     background-color: yellow;
+     color:red;
+     font-size:200%;
+    }
+    li[class~="a"] {
+        
+        color:red;
+        
+       }
+
+
+
+ .box{
+    border:1px solid #333333;
+width:200px;
+height:100px;
+overflow:scroll;
+
+ }      
+.wrapper  {
+    font-size: 1em;
+    border:4px solid;
+    width:15cm;
+    height:100px;
+    padding: 1%;
+}
+.px {
+    padding-top: 1%;  
+  width:15cm;
+  padding: 1%;
+}
+.vw {
+    width: 10vw;
+    
+
+}
+.em {
+    width:10em;
+
+}
+   /* article p{
+        color:green;
+    }
+    
+    /*article:firstchild-selects any <article> element that is a firstchild
+    rem-root element font size*/ 
+    

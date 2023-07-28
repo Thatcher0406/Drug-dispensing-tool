@@ -1,0 +1,26 @@
+h1+ p {
+    color: blue;
+    font-size: 200%;
+    font-style:italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .two{
+    color: greenyellow;
+    font: arial;
+    font-size:200%;
+ }
+ li em{
+    color:pink;
+    font-size:300%;
+}
+a:link{
+    color:brown;
+}
+a:visited{
+    color:darkgoldenrod;
+}
+a:hover{
+    color:yellow;
+    font-size: 340%;
+
+}
