@@ -1,0 +1,23 @@
+table{
+    border: solid 1px maroon;
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border: solid 1px maroon;
+    text-align: left;
+    padding: 5px;
+}
+th{
+    background-color: maroon;
+    color: rgba(255, 255, 255, 90%);
+    border: solid 1px #373737;
+    text-align: left;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: maroon;
+}
+tr:hover{
+    background-color: antiquewhite;
+}
